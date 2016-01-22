@@ -20,7 +20,7 @@ func = gets.chomp
 @hit = ''
 @path = ''
 if func == 'POST'
-  puts 'What is the entire URL of the domain of the endpoint you want to hit (no http(s):// nor www.)? Example: If your endpoint is http://www.google.com/apis/potato/say , write google.com/apis/potato/say'
+  puts 'What is the entire URL of the domain of the endpoint you want to hit (must include http(s)://)? Example: If your endpoint is http://www.google.com/apis/potato/say , write google.com/apis/potato/say'
   @hit = gets.chomp
 elsif func == 'GET'
   puts 'What is the domain of the endpoint you want to hit (no http(s):// nor www.)? Example: If your endpoint is http://www.google.com/apis/potato/say , write google.com'
