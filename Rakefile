@@ -1,10 +1,10 @@
-require '/hitter.rb'
+require './hitter.rb'
 
 task :default => [:validate]
 
 task :validate do
   begin
-    ruby "/hitter.rb"
+    ruby "hitter.rb"
     break
   rescue Exception => e
     raise 'Error could not run file'
