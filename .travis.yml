@@ -3,6 +3,7 @@ rvm:
   - 1.9.3
 install: true
 script:
+  - ruby help
   - ruby hitter.rb
 jdk:
   - oraclejdk7
