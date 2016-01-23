@@ -1,11 +1,5 @@
 language: ruby
 rvm:
   - 1.9.3
-install: true
-script:
-  - help ruby
-  - ruby hitter.rb
-jdk:
-  - oraclejdk7
 notifications:
   email: false
