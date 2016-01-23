@@ -50,7 +50,9 @@ if is_i(num_of_params)
     print http_post("#{@hit}", params)
     puts 'Parameters posted. Errors may or may not have occurred externally.'
   else
-    puts 'Only GET and POST requests are accepted.'
+    raise 'Only GET and POST requests are accepted.'
   end
 
-end
+else
+  raise 'Error: number of parameters is not a correct number'
+end  
