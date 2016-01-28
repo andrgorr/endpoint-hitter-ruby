@@ -4,7 +4,7 @@ task :default => [:validate]
 
 task :validate do
   begin
-    ruby -r tester.rb -e FileTest.test_method
+    ruby tester.rb
     break
   rescue Exception => e
     raise 'Error could not run file'
