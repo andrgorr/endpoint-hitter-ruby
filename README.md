@@ -1,4 +1,4 @@
-# endpoint-hitter-ruby
+# endpoint-hitter-ruby [![Build Status](https://travis-ci.org/javipepe/endpoint-hitter-ruby.svg?branch=master)](https://travis-ci.org/javipepe/endpoint-hitter-ruby)
 A simple ruby file to hit endpoints with parameters in either GET or POST requesting.
 
 Example:
