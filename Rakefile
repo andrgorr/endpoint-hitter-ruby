@@ -1,4 +1,4 @@
-require './tester.rb'
+require './src/tester/tester.rb'
 
 task :default => [:validate]
 
