@@ -1,4 +1,7 @@
+puts 'Testing hitter.rb'
 if not File.exist?('./hitter.rb')
   raise 'Error: Hitter not found'
-end
+else
+  exit
+end 
 
